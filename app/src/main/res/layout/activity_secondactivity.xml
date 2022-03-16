@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".secondactivity">
+
+
+    <EditText
+        android:id="@+id/editname"
+        android:layout_width="322dp"
+        android:layout_height="62dp"
+        android:autofillHints=""
+        android:hint="@string/enter"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.08"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/editnumber"
+        android:layout_width="322dp"
+        android:layout_height="62dp"
+        android:autofillHints=""
+        android:hint="@string/enterNumber"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/editname"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/editname"
+        app:layout_constraintTop_toBottomOf="@id/editname"
+        app:layout_constraintVertical_bias="0.099"
+        tools:ignore="TextContrastCheck,TextFields" />
+
+    <Button
+        android:id="@+id/savebutton"
+        android:layout_width="339dp"
+        android:layout_height="84dp"
+        android:backgroundTint="@color/purple_700"
+        android:hint="@string/ADD"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/editnumber"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/editnumber"
+        app:layout_constraintTop_toBottomOf="@id/editnumber"
+        app:layout_constraintVertical_bias="1.0"
+
+        tools:ignore="InvalidId,TextContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

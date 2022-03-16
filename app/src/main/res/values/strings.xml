@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">recycleview</string>
+    <string name="Name">Name</string>
+    <string name="enter">Name</string>
+    <string name="image">.</string>
+    <string name="Number">Number</string>
+    <string name="enterNumber">Phone number</string>
+    <string name="ADD">ADD</string>
+    <string name="imgaebutton">.</string>
+</resources>
